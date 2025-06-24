@@ -1,0 +1,25 @@
+In this project, I performed exploratory data analysis and basic forecasting on a sales dataset using Python. The tools and libraries I used include:
+
+Pandas for data manipulation and cleaning.
+
+NumPy for numerical operations and polynomial curve fitting.
+
+Matplotlib and Seaborn for data visualization.
+
+The project involved the following key steps:
+
+Handling Missing Values: I replaced missing entries in the "Sales Amount" column with the mean value and addressed unknown values in categorical columns appropriately.
+
+Date Processing: I converted the "Date" column to datetime format and set it as the index to allow for time-based analysis.
+
+Data Cleaning: I removed duplicate entries and checked data types for each column.
+
+Descriptive Analysis: I calculated total, average, maximum, and minimum sales, and analyzed sales by Region, Product, and Category using group-by aggregation.
+
+Time Series Analysis: I resampled sales data by month, quarter, and week to observe patterns over time.
+
+Moving Averages: I applied a 3-month moving average to smooth sales trends and support short-term forecasting.
+
+Data Visualization: I created clear visualizations including line plots, histograms, bar charts, and subplots for comparative analysis.
+
+Forecasting: I used moving averages and optional polynomial curve fitting to generate basic forecasts.
